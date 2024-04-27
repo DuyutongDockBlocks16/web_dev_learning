@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_3_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_3_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_4_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_4_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_4_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_4_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_5_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_5_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_5_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_5_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_6_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_6_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_6_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +25,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="dp9a4v1k" />
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
@@ -28,9 +41,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fbFnG1dGxtgcuup3Tqyj43VaC0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +55,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714062037577</updated>
       <workItem from="1714062038635" duration="1000" />
+      <workItem from="1714111568611" duration="6107000" />
     </task>
     <servers />
   </component>
