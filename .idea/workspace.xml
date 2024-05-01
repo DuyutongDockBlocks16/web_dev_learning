@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/4_2_1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_2_1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_3_1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_3_1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_4_1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_4_1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_4_2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_4_2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_5_1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_5_1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_6/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_6/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_6_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_2_1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/4_2_1/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +66,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0x04_development\web_dev\web_dev" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,6 +82,7 @@
       <workItem from="1714062038635" duration="1000" />
       <workItem from="1714111568611" duration="6448000" />
       <workItem from="1714401117713" duration="2420000" />
+      <workItem from="1714580458012" duration="4938000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
