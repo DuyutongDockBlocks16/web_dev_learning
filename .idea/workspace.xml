@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 5_2">
-      <change afterPath="$PROJECT_DIR$/5_2_1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_2_1/app.js" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 5_2_1">
+      <change afterPath="$PROJECT_DIR$/5_2_2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_2_2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1714111568611" duration="6448000" />
       <workItem from="1714401117713" duration="2420000" />
       <workItem from="1714580458012" duration="7285000" />
-      <workItem from="1714997295545" duration="957000" />
+      <workItem from="1714997295545" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714998140604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add 5_2_1">
+      <option name="closed" value="true" />
+      <created>1714998291717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714998291717</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +135,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add 4_6" />
     <MESSAGE value="add 5_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 5_2" />
+    <MESSAGE value="add 5_2_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 5_2_1" />
   </component>
 </project>
