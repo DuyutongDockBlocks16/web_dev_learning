@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book</title>
+  </head>
+  <body>
+    <p>Add a book:</p>
+    <form method="POST" action="/books">
+      <label for="Book name">Book name:</label>
+      <input type="text" id="bookName" name="bookName" /><br/>
+      <label for="Number of pages">Number of pages:</label>
+      <input type="text" id="numberOfPages" name="numberOfPages" /><br/>
+      <label for="ISBN">ISBN:</label>
+      <input type="text" id="isbn" name="isbn" /><br/>
+      <input type="submit" value="Add" />
+    </form>
+    <% if (it && it.books) { %>
+    <p>Existing books:</p>
+        <ul>
+        <% it.books.forEach((book) => { %>
+          <li>
+            <a href="/books/<%= book.id %>"><%= book.bookName %></a>
+            <form method="POST" action="/books/<%= book.id %>/delete">
+              <input type="submit" value="Delete" />
+            </form>
+          </li>
+        <% }); %>
+        </ul>
+    <% } %>
+  </body>
+</html>

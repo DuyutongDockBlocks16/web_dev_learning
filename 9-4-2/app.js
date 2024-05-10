@@ -10,7 +10,7 @@ app.get(
     "/",
     async (c) => {
         return c.html(
-            eta.render("todos.eta")
+            eta.render("books.eta")
         )
     }
 )

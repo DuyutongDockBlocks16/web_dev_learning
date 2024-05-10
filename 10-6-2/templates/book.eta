@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book</title>
+  </head>
+  <body>
+    <form method="POST" action="/books/<%= it.book.id %>">
+      <label for="Book name">Book name:</label>
+      <input type="text" id="bookName" name="bookName" /><br/>
+      <label for="Number of pages">Number of pages:</label>
+      <input type="text" id="numberOfPages" name="numberOfPages" /><br/>
+      <label for="ISBN">ISBN:</label>
+      <input type="text" id="isbn" name="isbn" /><br/>
+      <input type="submit" value="Update todo" />
+    </form>
+
+    <p><a href="/books">Back to books</a></p>
+  </body>
+</html>

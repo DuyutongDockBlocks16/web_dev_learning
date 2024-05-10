@@ -5,7 +5,7 @@ const eta = new Eta({ views: `${Deno.cwd()}/templates/` });
 
 const showForm = async (c) => {
     return c.html(
-        eta.render("todos.eta", { todos: await todoService.listTodos() }),
+        eta.render("books.eta", { todos: await todoService.listTodos() }),
     );
 };
 
@@ -19,7 +19,7 @@ const createTodo = async (c) => {
 const showTodo = async (c) => {
     const id = c.req.param("id");
     return c.html(
-        eta.render("todo.eta", { todo: await todoService.getTodo(id) }),
+        eta.render("book.eta", { todo: await todoService.getTodo(id) }),
     );
 };
 
