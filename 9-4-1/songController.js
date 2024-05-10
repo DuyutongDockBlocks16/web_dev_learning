@@ -10,7 +10,7 @@ const getAndRenderSongs = async (c) => {
     };
 
     return c.html(
-        eta.render("index.eta", data),
+        eta.render("todos.eta", data),
     );
 };
 

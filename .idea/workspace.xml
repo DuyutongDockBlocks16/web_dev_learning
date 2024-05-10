@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 9-4-1">
-      <change afterPath="$PROJECT_DIR$/9-4-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-4-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-4-2/feedbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-4-2/templates/index.eta" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 9-4-2">
+      <change afterPath="$PROJECT_DIR$/10-6-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-1/templates/todo.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-1/templates/todos.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-1/todoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-1/todoService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/templates/todo.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/templates/todos.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/todoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-6-2/todoService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/token/token" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-1/songController.js" beforeDir="false" afterPath="$PROJECT_DIR$/9-4-1/songController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/9-4-2/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DuyutongDockBlocks16"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DuyutongDockBlocks16&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DuyutongDockBlocks16/web_dev_learning.git",
-    "accountId": "bc228296-1252-4fb7-89bd-6970c8959499"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DuyutongDockBlocks16/web_dev_learning.git&quot;,
+    &quot;accountId&quot;: &quot;bc228296-1252-4fb7-89bd-6970c8959499&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="dp9a4v1k" />
   </component>
@@ -57,24 +68,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/duy4/wsd-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/duy4/wsd-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0x04_development\web_dev\web_dev" />
@@ -101,7 +112,8 @@
       <workItem from="1714401117713" duration="2420000" />
       <workItem from="1714580458012" duration="7285000" />
       <workItem from="1714997295545" duration="12951000" />
-      <workItem from="1715249177376" duration="5484000" />
+      <workItem from="1715249177376" duration="6145000" />
+      <workItem from="1715345902995" duration="5028000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -167,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715273010935</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add 9-4-2">
+      <option name="closed" value="true" />
+      <created>1715280424212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715280424212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +200,7 @@
     <MESSAGE value="add 5_2_1" />
     <MESSAGE value="add 5_2_2" />
     <MESSAGE value="add 9-4-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 9-4-1" />
+    <MESSAGE value="add 9-4-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 9-4-2" />
   </component>
 </project>

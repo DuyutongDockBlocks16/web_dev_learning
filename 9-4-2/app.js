@@ -10,7 +10,7 @@ app.get(
     "/",
     async (c) => {
         return c.html(
-            eta.render("index.eta")
+            eta.render("todos.eta")
         )
     }
 )
