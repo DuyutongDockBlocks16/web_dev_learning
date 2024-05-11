@@ -21,7 +21,7 @@ const listBooks = async () => {
 const getBook = async (id) => {
     const kv = await Deno.openKv();
     const book = await kv.get(["books", id]);
-    console.log(book);
+    // console.log(book);
     return book?.value ?? {};
 };
 
