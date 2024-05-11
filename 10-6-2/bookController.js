@@ -18,8 +18,10 @@ const createBook = async (c) => {
 
 const showBook = async (c) => {
     const id = c.req.param("id");
+    console.log(id);
+
     return c.html(
-        eta.render("book.eta", { todo: await bookService.getBook(id) }),
+        eta.render("book.eta", { book: await bookService.getBook(id) }),
     );
 };
 

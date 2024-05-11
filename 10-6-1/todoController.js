@@ -19,7 +19,7 @@ const createTodo = async (c) => {
 const showTodo = async (c) => {
     const id = c.req.param("id");
     return c.html(
-        eta.render("book.eta", { todo: await todoService.getTodo(id) }),
+        eta.render("todo.eta", { todo: await todoService.getTodo(id) }),
     );
 };
 

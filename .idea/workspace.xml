@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 10-6">
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 10-6-2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-6-1/todoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-1/todoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-6-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-6-2/templates/todo.eta" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/templates/book.eta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-6-2/templates/todos.eta" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/templates/books.eta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-6-2/todoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/bookController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-6-2/todoService.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/bookService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-4-1/songController.js" beforeDir="false" afterPath="$PROJECT_DIR$/9-4-1/songController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-4-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/9-4-2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-6-2/bookController.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/bookController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-6-2/bookService.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/bookService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-6-2/templates/book.eta" beforeDir="false" afterPath="$PROJECT_DIR$/10-6-2/templates/book.eta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,8 @@
       <workItem from="1714580458012" duration="7285000" />
       <workItem from="1714997295545" duration="12951000" />
       <workItem from="1715249177376" duration="6145000" />
-      <workItem from="1715345902995" duration="10626000" />
+      <workItem from="1715345902995" duration="10653000" />
+      <workItem from="1715410089549" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -188,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715351520773</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add 10-6-2">
+      <option name="closed" value="true" />
+      <created>1715364093136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715364093136</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +208,7 @@
     <MESSAGE value="add 9-4-1" />
     <MESSAGE value="add 9-4-2" />
     <MESSAGE value="add 10-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 10-6" />
+    <MESSAGE value="add 10-6-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 10-6-2" />
   </component>
 </project>
