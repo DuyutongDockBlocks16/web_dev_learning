@@ -11,7 +11,7 @@
       <input type="text" id="numberOfPages" name="numberOfPages" value="<%= it.book.numberOfPages %>" /><br/>
       <label for="ISBN">ISBN:</label>
       <input type="text" id="isbn" name="isbn" value="<%= it.book.isbn %>" /><br/>
-      <input type="submit" value="Update book" />
+      <input type="submit" value="Update" />
     </form>
 
     <p><a href="/books">Back to books</a></p>
