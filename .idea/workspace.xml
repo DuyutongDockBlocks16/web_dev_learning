@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 10-7-1 final">
-      <change afterPath="$PROJECT_DIR$/10-7-2/10-7-2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/courseController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/courseService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/deno.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/feedbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/templates/course.eta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/templates/courses.eta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-7-2/templates/index.eta" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 10-7-2 final">
+      <change afterPath="$PROJECT_DIR$/11-2-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-2-2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/token" beforeDir="false" afterPath="$PROJECT_DIR$/token/token" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +104,7 @@
       <workItem from="1715249177376" duration="6145000" />
       <workItem from="1715345902995" duration="10653000" />
       <workItem from="1715410089549" duration="13334000" />
-      <workItem from="1715586599571" duration="6934000" />
+      <workItem from="1715586599571" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -243,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715616097368</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add 10-7-2 final">
+      <option name="closed" value="true" />
+      <created>1715618188438</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715618188438</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +263,7 @@
     <MESSAGE value="remove console log" />
     <MESSAGE value="add 10_6-2 final" />
     <MESSAGE value="add 10-7-1 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 10-7-1 final" />
+    <MESSAGE value="add 10-7-2 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 10-7-2 final" />
   </component>
 </project>
