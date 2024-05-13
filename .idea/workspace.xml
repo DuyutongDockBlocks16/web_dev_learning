@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 10-7-2 final">
-      <change afterPath="$PROJECT_DIR$/11-2-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-2-2.js" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 11-2-2 and 11-1-1">
+      <change afterPath="$PROJECT_DIR$/11-2-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-2-4/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-2-4/templates/index.eta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10152\IdeaProjects\web_dev_learning\11-2-4\templates" />
       <recent name="D:\0x04_development\web_dev\web_dev" />
     </key>
   </component>
@@ -104,7 +106,7 @@
       <workItem from="1715249177376" duration="6145000" />
       <workItem from="1715345902995" duration="10653000" />
       <workItem from="1715410089549" duration="13334000" />
-      <workItem from="1715586599571" duration="7541000" />
+      <workItem from="1715586599571" duration="9229000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -242,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715618188438</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add 11-2-2 and 11-1-1">
+      <option name="closed" value="true" />
+      <created>1715618802922</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715618802922</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +274,7 @@
     <MESSAGE value="add 10_6-2 final" />
     <MESSAGE value="add 10-7-1 final" />
     <MESSAGE value="add 10-7-2 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 10-7-2 final" />
+    <MESSAGE value="add 11-2-2 and 11-1-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 11-2-2 and 11-1-1" />
   </component>
 </project>
