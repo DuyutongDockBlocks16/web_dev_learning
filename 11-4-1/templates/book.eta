@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book</title>
+  </head>
+  <body>
+    <form method="POST" action="/books/<%= it.book.id %>">
+      <label for="bookName">Book name:</label>
+      <input type="text" id="bookName" name="Book name" value="<%= it.book['Book name'] %>" /><br/>
+      <label for="numberOfPages">Number of pages:</label>
+      <input type="text" id="numberOfPages" name="Number of pages" value="<%= it.book['Number of pages'] %>" /><br/>
+      <label for="isbn">ISBN:</label>
+      <input type="text" id="isbn" name="ISBN" value="<%= it.book['ISBN'] %>" /><br/>
+      <input type="submit" value="Update" />
+    </form>
+
+    <p><a href="/books">Back to books</a></p>
+  </body>
+</html>
