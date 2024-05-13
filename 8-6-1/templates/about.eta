@@ -1,0 +1,4 @@
+<% layout("/layouts/layout.eta") %>
+
+<p>Hello again!</p>
+<a href="/">Click</a>

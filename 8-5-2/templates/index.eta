@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello there!</title>
+  </head>
+  <body>
+    <ul>
+      <% it.todos.forEach((todo_elem) => { %>
+        <li><%= todo_elem.name %> (<%= todo_elem.status %>)</li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 5_2_2">
-      <change afterPath="$PROJECT_DIR$/6-1-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/visits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/feedbacks.js" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 6">
+      <change afterPath="$PROJECT_DIR$/8-2-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-1/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-2/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-3/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-3/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-2-3/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-1/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-2/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-3/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-3/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-3-3/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-5-1/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-5-2/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-5-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-5-2/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-6-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-6-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-6-1/templates/about.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-6-1/templates/index.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-6-1/templates/layouts/layout.eta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -67,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,7 +103,8 @@
       <workItem from="1714111568611" duration="6448000" />
       <workItem from="1714401117713" duration="2420000" />
       <workItem from="1714580458012" duration="7285000" />
-      <workItem from="1714997295545" duration="12951000" />
+      <workItem from="1714997295545" duration="13596000" />
+      <workItem from="1715073429247" duration="7440000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -146,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714999156675</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 6">
+      <option name="closed" value="true" />
+      <created>1715010782371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715010782371</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +182,7 @@
     <MESSAGE value="add 5_2" />
     <MESSAGE value="add 5_2_1" />
     <MESSAGE value="add 5_2_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 5_2_2" />
+    <MESSAGE value="add 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 6" />
   </component>
 </project>
