@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course</title>
+  </head>
+  <body>
+    <p>Course: <%= it.course['Course name'] %></p>
+  </body>
+</html>

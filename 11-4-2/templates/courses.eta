@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Courses</title>
+  </head>
+  <body>
+
+    <% if (it?.errors?.['Course name']?._errors) { %>
+    <p>Course name validation errors:</p>
+    <ul>
+      <% it?.errors?.['Course name']?._errors.forEach((error) => { %>
+      <li><%= error %></li>
+      <% }); %>
+    </ul>
+    <% } %>
+
+    <p>Add a course:</p>
+    <form method="POST" action="/courses">
+      <label for="courseName">Course name:</label>
+      <input type="text" id="courseName" name="Course name" value="<%= it?.['Course name'] ?? '' %>" /><br/>
+      <input type="submit" value="Add" />
+    </form>
+    <% if (it && it.courses) { %>
+    <p>Existing courses:</p>
+        <ul>
+        <% it.courses.forEach((course) => { %>
+          <li>
+            <a href="/courses/<%= course.courseId %>"><%= course['Course name'] %></a>
+            <form method="POST" action="/courses/<%= course.courseId %>/delete">
+              <input type="submit" value="Delete" />
+            </form>
+          </li>
+        <% }); %>
+        </ul>
+    <% } %>
+  </body>
+</html>
