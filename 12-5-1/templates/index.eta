@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paywalled content</title>
+  </head>
+  <body>
+    <% if (it < 4 ) { %>
+        <p>Hello! Here is the paywalled content.</p>
+    <% } else {%>
+        <p>To see more, register and pay up!</p>
+    <% } %>
+  </body>
+</html>

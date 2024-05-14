@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course</title>
+  </head>
+  <body>
+    <% if (it.count === 1  ) { %>
+        <p>Course: <%= it.course['Course name'] %></p>
+            <p>How would you rate this experience?</p>
+                <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/1">
+                  <input type="submit" value="Poor"></input>
+                </form>
+                <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/2">
+                  <input type="submit" value="Fair"></input>
+                </form>
+                <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/3">
+                  <input type="submit" value="Good"></input>
+                </form>
+                <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/4">
+                  <input type="submit" value="Very good"></input>
+                </form>
+                <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/5">
+                  <input type="submit" value="Excellent"></input>
+                </form>
+    <% } else {%>
+        <p>You have already given feedback for this course. Thank you!</p>
+    <% } %>
+  </body>
+</html>
