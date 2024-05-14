@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 5_2_2">
-      <change afterPath="$PROJECT_DIR$/6-1-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-1-2/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-1/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-2-2/visits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/app-run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-3-1/feedbacks.js" afterDir="false" />
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 8">
+      <change afterPath="$PROJECT_DIR$/12-3-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-3-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-3-1/templates/index.eta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/duy4/wsd-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/duy4/wsd-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0x04_development\web_dev\web_dev" />
@@ -89,6 +78,7 @@
       <workItem from="1714401117713" duration="2420000" />
       <workItem from="1714580458012" duration="7285000" />
       <workItem from="1714997295545" duration="12951000" />
+      <workItem from="1715696250971" duration="3240000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -151,6 +141,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

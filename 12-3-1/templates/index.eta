@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greeting</title>
+  </head>
+  <body>
+    <% if (it !== undefined && it !== null) { %>
+        <p>Hi <%= it %></p>
+    <% } else { %>
+        <form method="POST" action="/">
+            <label for="name">Type in your name:</label>
+            <input type="text" id="name" name="name" /><br/>
+            <input type="submit" />
+        </form>
+    <% } %>
+  </body>
+</html>
