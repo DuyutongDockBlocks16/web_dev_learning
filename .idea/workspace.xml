@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="add 12-5">
+    <list default="true" id="8a8859d2-4e52-4f84-87a3-024b934cccbd" name="Changes" comment="modify 12-5">
+      <change afterPath="$PROJECT_DIR$/14-7-1/app-run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/authController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/mainController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/sessionService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/templates/login.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/templates/main.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/templates/registration.eta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-7-1/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/33/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-5-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/12-5-2/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-5-2/courseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/12-5-2/courseController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-5-2/feedbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/12-5-2/feedbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-5-2/templates/course.eta" beforeDir="false" afterPath="$PROJECT_DIR$/12-5-2/templates/course.eta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/token" beforeDir="false" afterPath="$PROJECT_DIR$/token/token" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0x04_development\web_dev\web_dev\14-7-1" />
       <recent name="D:\0x04_development\web_dev\web_dev" />
     </key>
   </component>
@@ -81,7 +89,7 @@
       <workItem from="1714580458012" duration="7285000" />
       <workItem from="1714997295545" duration="12951000" />
       <workItem from="1715696250971" duration="5686000" />
-      <workItem from="1715772237951" duration="5390000" />
+      <workItem from="1715772237951" duration="10208000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -155,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715704165651</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modify 12-5">
+      <option name="closed" value="true" />
+      <created>1715801925164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715801925164</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +196,7 @@
     <MESSAGE value="add 5_2_2" />
     <MESSAGE value="add 12-3" />
     <MESSAGE value="add 12-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 12-5" />
+    <MESSAGE value="modify 12-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify 12-5" />
   </component>
 </project>
