@@ -5,18 +5,21 @@ import {
     getSignedCookie,
     setSignedCookie,
 } from "https://deno.land/x/hono@v3.12.11/helper.ts";
+import * as feedbacks from "./feedbacks.js";
 
 const eta = new Eta({ views: `${Deno.cwd()}/templates/` });
 
 const sessionCounts = new Map();
 const secret = "secret";
 
-const getAndIncrementCount = (sessionId, courseId) => {
+const getFeedbackFlag = (sessionId, courseId) => {
     const idCombination = sessionId+courseId;
-    let count = sessionCounts.get(idCombination) ?? 0;
-    count++;
-    sessionCounts.set(idCombination, count);
-    return count;
+
+    if (sessionCounts.get(idCombination) !== undefined){
+        return true
+    } else {
+        return false
+    }
 };
 
 const validator = z.object({
@@ -58,10 +61,12 @@ const showCourse = async (c) => {
     await setSignedCookie(c, "sessionId", sessionId, secret, {
         path: "/",
     });
-    const count = getAndIncrementCount(sessionId, courseId);
+    const flag = getFeedbackFlag(sessionId, courseId);
+
+    console.log(flag)
 
     return c.html(
-        eta.render("course.eta", { course: await courseService.getCourse(courseId), count: count}),
+        eta.render("course.eta", { course: await courseService.getCourse(courseId), flag: flag}),
     );
 };
 
@@ -87,4 +92,34 @@ const deleteCourse = async (c) => {
     return c.redirect("/courses");
 };
 
-export { createCourse, showForm, showCourse, updateCourse, deleteCourse};
+const getFeedback = async (c) => {
+    const feedbackId = c.req.param("id");
+    const courseId = c.req.param("courseId");
+
+    const sessionId = await getSignedCookie(c, secret, "sessionId") ??
+        crypto.randomUUID();
+    await setSignedCookie(c, "sessionId", sessionId, secret, {
+        path: "/",
+    });
+
+    const feedbackIdInMap = await feedbacks.getFeedbackCount(courseId, sessionId, sessionCounts);
+
+    if (Number(feedbackIdInMap) === feedbackId){
+        return c.text(`Feedback ${feedbackId}: 1`);
+    } else {
+        return c.text(`Feedback ${feedbackId}: 0`);
+    }
+}
+
+const setFeedback = async (c) => {
+    const feedbackId = c.req.param("id");
+    const courseId = c.req.param("courseId");
+
+    const sessionId = await getSignedCookie(c, secret, "sessionId") ??
+        crypto.randomUUID();
+
+    await feedbacks.incrementFeedbackCount(courseId, sessionId, feedbackId, sessionCounts);
+    return c.redirect(`/courses/${courseId}`);
+}
+
+export { createCourse, showForm, showCourse, updateCourse, deleteCourse, getFeedback, setFeedback};

@@ -12,23 +12,7 @@ app.post("/courses", courseController.createCourse);
 app.post("/courses/:courseId", courseController.updateCourse);
 // app.post("/courses/:courseId", courseController.valueCourse);
 app.post("/courses/:courseId/delete", courseController.deleteCourse);
-
-// app.get("/", async (c) => {
-//     return c.html(eta.render("index.eta"));
-// });
-
-app.get("/courses/:courseId/feedbacks/:id", async (c) => {
-    const id = c.req.param("id");
-    const courseId = c.req.param("courseId");
-    const feedbackCount = await feedbacks.getFeedbackCount(courseId, id);
-    return c.text(`Feedback ${id}: ${feedbackCount}`);
-});
-
-app.post("/courses/:courseId/feedbacks/:id", async (c) => {
-    const id = c.req.param("id");
-    const courseId = c.req.param("courseId");
-    await feedbacks.incrementFeedbackCount(courseId, id);
-    return c.redirect(`/courses/${courseId}`);
-});
+app.get("/courses/:courseId/feedbacks/:id", courseController.getFeedback);
+app.post("/courses/:courseId/feedbacks/:id", courseController.setFeedback);
 
 export default app;

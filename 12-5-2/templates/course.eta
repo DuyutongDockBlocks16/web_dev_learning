@@ -4,7 +4,7 @@
     <title>Course</title>
   </head>
   <body>
-    <% if (it.count === 1  ) { %>
+    <% if (it.flag === false  ) { %>
         <p>Course: <%= it.course['Course name'] %></p>
             <p>How would you rate this experience?</p>
                 <form method="POST" action="/courses/<%= it.course.courseId %>/feedbacks/1">
