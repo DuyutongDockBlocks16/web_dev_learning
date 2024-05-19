@@ -10,7 +10,7 @@
       <input type="email" name="email" id="email" /><br />
       <label for="password">Password:</label>
       <input type="password" name="password" id="password" /><br />
-      <input type="submit" value="login" />
+      <input type="submit" value="Login!" />
     </form>
   </body>
 </html>%

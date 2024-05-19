@@ -7,7 +7,7 @@
     <% if (it && it.user) { %>
     <p>Hi <%= it.user.email %>!</p>
     <form method="POST" action="/auth/logout">
-      <input type="submit" value="logout" />
+      <input type="submit" value="Logout" />
     </form>
     <% } else { %>
     <p>Hi guest!</p>
