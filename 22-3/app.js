@@ -7,6 +7,6 @@ app.get("/books", bookController.showForm);
 app.get("/books/:id", bookController.showBook);
 app.post("/books", bookController.createBook);
 app.put("/books/:id", bookController.updateBook);
-app.delete("/books/:id/delete", bookController.deleteBook);
+app.delete("/books/:id", bookController.deleteBook);
 
 export default app;

@@ -45,7 +45,7 @@ const updateBook = async (c) => {
 
     const id = c.req.param("id");
     const body = await c.req.json();
-    await sql`UPDATE books SET  name = ${ body.name }, page = ${ body.pages }, isbn=  ${ body.isbn } WHERE id = ${ id }`;
+    await sql`UPDATE books SET  name = ${ body.name }, pages = ${ body.pages }, isbn=  ${ body.isbn } WHERE id = ${ id }`;
     // here we assume that such an address exists -- could also check whether one exists
     return c.json({ status: "ok" });
 };
