@@ -47,4 +47,43 @@ const getPokemonBaseHappiness = async (id) => {
     }
 };
 
-export { getPokemonBaseHappiness, getPokemonName };
+const getPokemonEvolutionChain = async (id) => {
+    // Construct the URL for the Pokémon evolution chain endpoint
+    const url = `https://pokeapi.co/api/v2/evolution-chain/${id}/`;
+
+    try {
+        // Perform the fetch request
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error('Failed to fetch data from the PokéAPI');
+        }
+
+        // Parse the JSON response
+        const data = await response.json();
+
+        // Prepare to extract names from the evolution chain
+        let evolutionChain = [];
+        let currentStage = data.chain;
+
+        // Iterate over the evolution chain to extract names
+        while (currentStage) {
+            // Push the current Pokémon's name to the chain array
+            evolutionChain.push(currentStage.species.name);
+
+            // Move to the next stage in the chain
+            if (currentStage.evolves_to.length > 0) {
+                currentStage = currentStage.evolves_to[0];
+            } else {
+                currentStage = null; // No more evolutions, break the loop
+            }
+        }
+
+        return evolutionChain;
+    } catch (error) {
+        // Handle any errors that might occur during the fetch operation
+        console.error("Error fetching Pokémon evolution data:", error);
+        throw error; // Rethrow the error so that the caller knows something went wrong
+    }
+};
+
+export { getPokemonBaseHappiness, getPokemonEvolutionChain, getPokemonName };
