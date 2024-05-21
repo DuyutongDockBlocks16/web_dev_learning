@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello there!</title>
+  </head>
+  <body>
+    <h1>Joke!</h1>
+    <p>Setup: <%= it.setup %></p>
+    <p>Punchline: <%= it.punchline %></p>
+  </body>
+</html>
